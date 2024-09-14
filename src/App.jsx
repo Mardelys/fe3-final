@@ -1,14 +1,15 @@
-
-import Footer from "./Components/Footer";
-import Navbar from "./Components/Navbar";
-
+import AppRouter from './AppRouter';
+import Navbar from './Components/Navbar';
+import Footer from './Components/Footer'
 
 function App() {
   return (
-      <div className="App">
-          <Navbar/>
-          <Footer/>
-      </div>
+    <div className="App">
+      <Navbar />
+      <AppRouter />
+      <Footer />
+      
+    </div>
   );
 }
 
